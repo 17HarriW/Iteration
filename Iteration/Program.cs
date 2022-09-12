@@ -34,9 +34,9 @@ namespace Iteration
                 Console.WriteLine($"{i} is {parity}");
 
                 // say if a number is divisible by 3
-                string divisibleThree = (i % 3 == 0) ? "divisible by 3" : "not divisible by 3";
+                string divisibleThree = (i % 3 == 0) ? "" : "not";
 
-                Console.WriteLine($"{i} is {divisibleThree}");
+                Console.WriteLine($"{i} is {divisibleThree} divisible by 3");
             }
 
             Console.ReadLine();
