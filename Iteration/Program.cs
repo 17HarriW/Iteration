@@ -24,6 +24,23 @@ namespace Iteration
                 Console.WriteLine("End loop?: ");
                 endLoop = Console.ReadLine().ToLower() == "yes";
             }
+
+            // repeats from 1 to 50
+            for(int i = 1; i < 50; i++)
+            {
+                // say if a number is odd or even
+                string parity = (i % 2 == 0) ? "even" : "odd";
+
+                Console.WriteLine($"{i} is {parity}");
+
+                // say if a number is divisible by 3
+                string divisibleThree = (i % 3 == 0) ? "divisible by 3" : "not divisible by 3";
+
+                Console.WriteLine($"{i} is {divisibleThree}");
+            }
+
+            Console.ReadLine();
+
         }
     }
 }
