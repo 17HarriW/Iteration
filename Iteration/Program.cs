@@ -16,7 +16,7 @@ namespace Iteration
                 Console.WriteLine("Line " + (i + 1) + " printed");
             }
 
-            // Repeat until user says "quit"
+            // Repeat until user says "yes"
             bool endLoop= false;
 
             while (endLoop == false)
